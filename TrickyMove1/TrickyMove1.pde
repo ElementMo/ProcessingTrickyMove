@@ -1,3 +1,12 @@
+/**
+* <p>Title: 墨白 ElementMo</p>  
+* <p>Description: Processing骚操作第一期</p>  
+* <p>Copyright: Copyright (c) 2018</p>  
+* <p>Company: elementmo.github.io</p>  
+* @author elementmo  
+* @date 2018.11.2  
+* @version 1.0  
+*/
 import java.awt.*;
 import javax.swing.JFrame;
 import processing.awt.PSurfaceAWT;

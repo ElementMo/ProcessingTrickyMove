@@ -5,12 +5,14 @@ import javax.imageio.*;
 
 PImage pimg;
 PImage bobble;
-Bobble[] b = new Bobble[20];
+Bobble[] b = new Bobble[15];
+Dimension screen;
 
 void init() 
 {
-  Dimension screen = Toolkit.getDefaultToolkit().getScreenSize();
+  screen = Toolkit.getDefaultToolkit().getScreenSize();
   Rectangle screenRect = new Rectangle(screen);
+  surface.setAlwaysOnTop(true);
 
   try {
     Robot robot = new Robot();

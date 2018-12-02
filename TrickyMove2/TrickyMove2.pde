@@ -17,5 +17,6 @@ void setup()
 void draw()
 {
   image(pimg, 0, 0);
-  Trigger();
+  //Trigger();
+  update();
 }

@@ -3,6 +3,11 @@ Point p;
 
 void Trigger() 
 {
+  if (keyPressed) {
+    Active();
+  } else {
+    DeActive();
+  }
 }
 
 
